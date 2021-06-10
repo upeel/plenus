@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/sma_bmflo">
+<!--  <Valve className="org.apache.cxf.fediz.tomcat.FederationAuthenticator"
+    configFile="conf/fediz_config.xml" />-->
+    <!--<Valve className="org.picketlink.identity.federation.bindings.tomcat.sp.ServiceProviderAuthenticator" />-->
+</Context> 

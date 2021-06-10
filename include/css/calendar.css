@@ -1,0 +1,24 @@
+#container .bd form {
+    clear:left;
+}
+
+#container .bd {
+    padding:0;
+}
+
+#container .hd {
+    text-align:left;
+}
+
+#container .ft .button-group {
+    text-align:center;
+}
+
+#container_c.yui-overlay-hidden table {
+    display:none;
+}
+
+#cal {
+    border:none;
+    padding:1em;
+}

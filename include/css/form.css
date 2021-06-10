@@ -1,0 +1,110 @@
+.loginbutton{
+    font:99% arial,helvetica,clean,sans-serif;
+   /* color: whitesmoke;*/
+   color:#cccccc;
+
+/*    background-image: url('../../images/inputbg.png');*/
+   
+    background-repeat: repeat-x;
+    background-position: top;
+    padding: 2px;
+/*    border:solid 1px #85b1de;*/
+    border: 1px outset white; border-color:#cccccc;
+	 moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+   width: 12.5em;  height: 2em;
+   background: #424141;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#888888 ), to(#424141));
+	background: -webkit-linear-gradient(0% 0%, 0% 100%, from(#888888 ), to(#424141));
+	background: -moz-linear-gradient(center top, #888888 , #424141);
+}
+
+.logintext{
+    font:99% arial,helvetica,clean,sans-serif;
+    border: solid 1px #85b1de;
+/*    background-image: url('../../images/inputbg.png');*/
+    background-color: #cccccc;
+    background-repeat: repeat-x;
+    background-position: top;
+    padding: 4px;
+	opacity:0.3;
+
+}
+
+.psadtext, .psadtextarea{
+    font:99% arial,helvetica,clean,sans-serif;
+    border: solid 1px #85b1de;
+/*    background-image: url('../../images/inputbg.png');*/
+    background-color: white;
+    background-repeat: repeat-x;
+    background-position: top;
+    padding: 4px;
+}
+
+.psadview{
+    font:99% arial,helvetica,clean,sans-serif;
+    border: solid 1px #cbcbcb;
+    background-color: silver;
+/*    background-image: url('../../images/viewbg.png');*/
+    background-repeat: repeat-x;
+    background-position: top;
+    padding: 4px;
+}
+
+.psadselect, .psadselect option{
+    font:99% arial,helvetica,clean,sans-serif;
+    background-color: white;
+/*    background-image: url('../../images/inputbg.png');*/
+    background-repeat: repeat-x;
+    padding: 1px;
+    border:solid 1px #85b1de;
+}
+
+.psadbutton{
+    font:99% arial,helvetica,clean,sans-serif;
+    color: whitesmoke;
+/*    background-image: url('../../images/inputbg.png');*/
+    background-color: #606060;
+    background-repeat: repeat-x;
+    background-position: top;
+    padding: 2px;
+/*    border:solid 1px #85b1de;*/
+    border: 1px outset white; border-color:whitesmoke;
+    cursor:hand;
+}
+
+.psadtext:focus, .psadtextarea:focus{
+    background-image: none;
+    background-color: #ffffff;
+    border: solid 1px #33677F;
+}
+
+.psadtext:blur, .psadtextarea:blur{
+    border: solid 1px #85b1de;
+    background-image: url('../../images/inputbg.png');
+    background-repeat: repeat-x;
+    background-position: top;
+}
+
+.psadtitle{
+    font:100% arial,helvetica,clean,sans-serif;
+    text-align:right;
+    font-weight:bold;
+    color:#606060;
+    text-align:center;
+
+}
+
+.psadinitheader{
+    font:100% arial,helvetica,clean,sans-serif;
+    text-align:left;
+    color:#606060;
+    width:600px;
+}
+
+.psadheader{
+    font:100% arial,helvetica,clean,sans-serif;
+    text-align:left;
+    color:#606060;
+    width:750px;
+}

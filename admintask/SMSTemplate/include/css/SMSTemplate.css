@@ -1,0 +1,36 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9 Apr, 2019, 3:32:53 PM
+    Author     : imam
+*/
+
+.formTitleTableCellForQueue
+{
+    text-align: left;
+    width: 5%;
+    color: white;
+    background-color: #c00000;
+    height: 10px;
+}
+
+.formTitelName{
+    text-align: right;
+    vertical-align: middle;
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.errorfieldfont{
+    font:100% arial,helvetica,clean,sans-serif;
+    font-weight:bold;
+    color:#CF0000;
+}
+
+.thTableColorBlack{
+    color: black !important;
+}

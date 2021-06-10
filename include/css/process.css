@@ -1,0 +1,18 @@
+div.mxRubberband {
+	border-color: #9FAA88;
+	background: #ADC17D;
+	opacity: 0.5;
+}
+div.mxWindow {
+	background: #E4F4C6;
+}
+div.mxWindowTitle {
+	background: url('../images/windowtitle.gif');
+}
+div.mxPopupMenu {
+	background: #E4F4C6;
+}
+tr.mxPopupMenuItem:hover {
+	background-color: #000066;
+	color: #FFFFFF;
+}

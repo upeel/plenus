@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{dd-MMM-yyyy HH:mm:ss.SSS} %-5level[%t] %logger{36} - %msg%n"/>
+        </Console>
+    
+        <File name="Catalina" FileName="${sys:catalina.base}/logs/catalina.${date:yyy-MM-dd}.log" append="true" immediateFlush="true">
+            <PatternLayout pattern="%d{dd-MMM-yyyy HH:mm:ss.SSS} %-5level[%t] %logger{36} - %msg%n"/>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Root level="INFO">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="Catalina"/>
+        </Root>
+    </Loggers>
+</Configuration>

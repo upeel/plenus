@@ -1,0 +1,15 @@
+.datatable{
+    text-align: center;
+    position: relative;
+}
+
+.datatable table{
+    width: 750px;
+    position: relative;
+}
+
+.datatable, .datatable .yui-dt-loading{
+    text-align: center;
+    background-color: transparent;
+    position: relative;
+}

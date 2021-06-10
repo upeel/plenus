@@ -1,0 +1,14 @@
+/* 
+    Document   : formdesign
+    Created on : Oct 10, 2013, 4:03:18 PM
+    Author     : Veronica
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body { font-size: 85%; }
+
+div#users-contain { width: 100%; margin: 10px 0; }
+div#users-contain table { margin: 1em 0; border-collapse: collapse;  width: 100%;  }
+div#users-contain table td, div#users-contain table th { border: 1px solid #eee; padding: .4em 6px; text-align: left; }
+.ui-dialog .ui-state-error { padding: .3em; }
+.validateTips { border: 1px solid transparent; padding: 0.3em; }

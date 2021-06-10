@@ -1,0 +1,109 @@
+/* 
+    Document   : loading
+    Created on : Nov 1, 2012, 9:38:20 AM
+    Author     : Veronica
+    Description:
+        stylesheet for image loader
+*/
+
+#dvLoading {
+    background:url(../images/loading5.gif) no-repeat center center;
+    /*    height: 100px;
+        width: 100px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin: -25px 0 0 -25px;
+        z-index: 1000;*/
+
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+/*    margin-left: -190px;
+    margin-top: -100px;*/
+    background-color: #ffffff;
+    border: 0px solid #336699;
+    padding: 0px;
+    opacity: .80;
+    filter: alpha(opacity=80);
+    -moz-opacity: .80;
+    z-index: 102;
+    font-family: Arial;
+    font-size: 15pt;
+}
+
+#dvLoading2 {
+    background:url(../images/loading5.gif) no-repeat center center;
+    /*    height: 100px;
+        width: 100px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin: -25px 0 0 -25px;
+        z-index: 1000;*/
+
+
+    position: fixed;
+    width: 380px;
+    height: 150px;
+    top: 50%;
+    left: 50%;
+    margin-left: -190px;
+    margin-top: -100px;
+    background-color: #ffffff;
+    border: 0px solid #336699;
+    padding: 0px;
+    z-index: 102;
+    font-family: Verdana;
+    font-size: 10pt;
+}
+
+.web_dialog_overlay
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #000000;
+    opacity: .15;
+    filter: alpha(opacity=15);
+    -moz-opacity: .15;
+    z-index: 101;
+    display: none;
+}
+
+.web_dialog_cover{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    border: 0px solid #336699;
+    padding: 0px;
+    z-index: 103;
+    font-family: Arial;
+    font-size: 15pt;
+}
+.web_dialog_title
+{
+    border-bottom: solid 2px #336699;
+    background-color: gray;   
+    padding: 4px;
+    color: White;
+    font-weight:bold;  
+    text-align: center;
+}

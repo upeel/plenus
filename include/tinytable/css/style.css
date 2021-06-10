@@ -1,0 +1,46 @@
+* {margin:0; padding:0; outline:0}
+body {font:11px Verdana,Arial; margin:25px; background:#fff; }
+#worktablewrapper, #endtablewrapper, #admintablewrapper {width:900px; margin:0 auto}
+#worktableheader, #endtableheader, #admintableheader {height:55px}
+.search {float:left; padding:6px; border:1px solid #000000; background:#fff}
+#worktableheader select, #endtableheader select, #admintableheader select {float:left; font-size:12px; width:125px; padding:2px 4px 4px}
+#worktableheader input, #endtableheader input, #admintableheader input {float:left; font-size:12px; width:225px; padding:2px 4px 4px; margin-left:4px}
+#worktable tr .active{background-color: black}
+.details {float:right; padding-top:12px}
+.details div {float:left; margin-left:15px; font-size:12px}
+.tinytable {width:899px; border-left:1px solid #000000; border-top:1px solid #000000; border-bottom:none}
+.tinytable th {background:#333333; text-align:left; color:#ffffff; border:1px solid #fff; border-right:none}
+.tinytable th h3 {font-size:10px; padding:6px 8px 8px}
+.tinytable td {padding:4px 6px 6px; border-bottom:1px solid #000000; border-right:1px solid #000000}
+.tinytable .head h3 {background:url(images/sort.gif) 7px center no-repeat; cursor:pointer; padding-left:18px}
+.tinytable .desc, .sortable .asc {background:#333333}
+.tinytable .desc h3 {background:url(images/desc.gif) 7px center no-repeat; cursor:pointer; padding-left:18px}
+.tinytable .asc h3 {background:url(images/asc.gif) 7px  center no-repeat; cursor:pointer; padding-left:18px}
+.tinytable .head:hover, .tinytable .desc:hover, .tinytable .asc:hover {color:#cccccc}
+.tinytable .evenrow td {background:#ffffff}
+.tinytable .oddrow td {background:#cccccc}
+.tinytable td.evenselected {background:#cccccc}
+.tinytable td.oddselected {background:#cccccc}
+.tinytable tfoot {background:#fff; font-weight:bold}
+.tinytable tfoot td {padding:6px 8px 8px}
+#worktablefooter, #endtablefooter, #admintablefooter {height:15px; margin-top:20px}
+#worktablenav, #endtablenav, #admintablenav {float:left}
+#worktablenav img, #endtablenav img, #admintablenav img {cursor:pointer}
+#worktablenav div, #endtablenav div, #admintablenav div {float:left; margin-right:15px}
+#worktablelocation, #endtablelocation, #admintablelocation {float:right; font-size:12px}
+#worktablelocation select, #endtablelocation select, #admintablelocation select {margin-right:3px}
+#worktablelocation div, #endtablelocation div, #admintablelocation div {float:left; margin-left:15px}
+.page {margin-top:2px; font-style:italic}
+#selectedrow td {background:#cccccc}
+#viewAllBtn, #resetBtn {
+    display: block;
+    /*                width: 55px;*/
+    /*                height: 15px;*/
+    /*                background: #666666;*/
+    /*                padding: 2px;*/
+    /*                text-align: center;*/
+    /*                border-radius: 2px;*/
+    color: #606060;
+    font-weight: bold;
+    cursor:pointer;
+}

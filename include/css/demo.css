@@ -1,0 +1,136 @@
+
+/** COMMON ELEMENT PROPERTIES **/
+.shape {
+    z-index:2;
+    opacity:0.7;
+    filter:alpha(opacity=70);
+    position:absolute;
+    cursor:pointer;
+    text-align:center;
+    color:#333;
+}
+
+/** SHAPES **/
+
+[data-shape=Rectangle] {
+    width:210px;
+    height:70px;
+    left:380px;
+    top:505px;
+    line-height: 70px;
+    background-image:url(rectangle.png);
+}
+
+[data-shape=Ellipse] {
+    width:210px;
+    height:70px;
+    left:250px;
+    top:300px;
+    line-height: 70px;
+    background-image:url(ellipse.png);
+}
+
+[data-shape=CircleStart] {
+    width:150px;
+    height:150px;
+    left:550px;
+    top:150px;
+    line-height: 150px;
+    background-image:url(circlestart.png);
+}
+
+[data-shape=CircleEnd] {
+    width:150px;
+    height:150px;
+    left:550px;
+    top:150px;
+    line-height: 150px;
+    background-image:url(circleend.png);
+}
+
+[data-shape=Triangle] {
+    width:150px;
+    height:150px;
+    line-height: 150px;
+    background-image:url(triangle.png);
+}
+
+._90[data-shape=Triangle] {
+    width:150px;
+    height:150px;
+    line-height: 150px;
+    background-image:url(triangle_90.png);
+}
+
+[data-shape=Diamond] {
+    width:150px;
+    height:150px;
+    left:550px;
+    top:150px;
+    line-height: 150px;
+    background-image:url(diamond.png);
+}
+
+.window { border:1px solid #346789;
+          box-shadow: 2px 2px 19px #aaa;
+          -o-box-shadow: 2px 2px 19px #aaa;
+          -webkit-box-shadow: 2px 2px 19px #aaa;
+          -moz-box-shadow: 2px 2px 19px #aaa;
+          -moz-border-radius:0.5em;
+          border-radius:0.5em;
+          opacity:0.8;
+          filter:alpha(opacity=80);
+          width:5em; height:5em;
+          line-height:5em;
+          text-align:center;
+          z-index:20; position:absolute;
+          background-color:#eeeeef;
+          color:black;
+          font-family:helvetica;padding:0.5em;
+          font-size:0.9em;}
+.window:hover {
+
+    box-shadow: 2px 2px 19px #444;
+    -o-box-shadow: 2px 2px 19px #444;
+    -webkit-box-shadow: 2px 2px 19px #444;
+    -moz-box-shadow: 2px 2px 19px #444;
+    opacity:0.6;
+    filter:alpha(opacity=60);
+
+}
+
+.active {
+    border:1px dotted green;
+}
+.hover {
+    border:1px dotted red;
+}
+
+._jsPlumb_connector { z-index:4; }
+._jsPlumb_endpoint, .endpointTargetLabel, .endpointSourceLabel{ z-index:21;cursor:pointer; }
+
+.hl { border:3px solid red; }
+#debug { position:absolute; background-color:black; color:red; z-index:5000 }
+
+._jsPlumb_dragging { z-index:4000; }
+
+.aLabel {
+    background-color:white; 
+    padding:0.4em; 
+    font:12px sans-serif; 
+    color:#444;
+    z-index:21;
+    border:1px dotted gray;
+    opacity:0.8;
+    filter:alpha(opacity=80);
+    cursor: pointer;
+}
+.aLabel._jsPlumb_hover {
+    background-color:#5C96BC;
+    color:white;	
+    border:1px solid white;
+}
+/** JSPLUMB ARTEFACTS **/
+._jsPlumb_connector {
+    z-index:1;
+}
